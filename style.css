@@ -1,0 +1,56 @@
+html, body {
+  height: 100%;
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+  overflow: auto;
+  font-family: arial;
+  color: #007;
+  background: #FFE;
+}
+
+ol#lines span.word {
+  margin: 0 5px;
+  font-size: 18px;
+}
+
+ol#lines input.entry {
+  background: transparent;
+  border: 0 none;
+  margin: 0 5px;
+  border-bottom: 1px solid red;
+  padding: 0;
+  width: 100px;
+  text-align: center;
+  font-size: 18px;
+}
+
+ol#editor input.linetxb {
+  width: 400px;
+}
+
+ol#editor select.kwsel {
+  width: 150px;
+}
+
+iframe#testframe {
+  border: 0;
+  width: 100%;
+  margin: 0;
+  height: 500px;
+}
+
+div.outermargin {
+  padding: 30px;
+}
+
+a {
+  color: #00A;
+}
+
+a#editorlnk {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
